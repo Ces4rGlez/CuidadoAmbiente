@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}Preservar el Entorno para Futuras Generaciones{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <div class="container">
+        <a href="{{ url_for('index') }}" class="breadcrumb-item">Inicio</a>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-item active">Futuras Generaciones</span>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="content-layout">
+            <div class="content-text">
+                <h1 class="page-title">Preservar el Entorno para las Futuras Generaciones</h1>
+                <p class="lead">Tenemos la responsabilidad moral de dejar un planeta habitable para nuestros hijos y nietos. Las decisiones que tomamos hoy determinarán la calidad de vida de las generaciones venideras.</p>
+                
+                <h2>El legado que dejamos</h2>
+                <p>Cada acción cuenta. Desde el consumo responsable hasta la protección de ecosistemas, nuestras decisiones actuales tienen un impacto directo en el futuro del planeta.</p>
+
+                <h2>Desafíos para el futuro</h2>
+                <ul class="feature-list">
+                    <li><strong>Cambio climático:</strong> El aumento de temperaturas amenaza ecosistemas y comunidades enteras.</li>
+                    <li><strong>Escasez de agua:</strong> El agua dulce se está convirtiendo en un recurso cada vez más limitado.</li>
+                    <li><strong>Pérdida de biodiversidad:</strong> Miles de especies están en peligro de extinción.</li>
+                    <li><strong>Contaminación:</strong> Los desechos plásticos y químicos afectan océanos, suelos y aire.</li>
+                    <li><strong>Deforestación:</strong> La pérdida de bosques reduce la capacidad del planeta para absorber CO2.</li>
+                </ul>
+
+                <h2>Acciones para el futuro</h2>
+                <p>Podemos marcar la diferencia mediante educación ambiental, transición a energías renovables, protección de áreas naturales, promoción de la economía circular y apoyo a políticas ambientales sólidas.</p>
+
+                <div class="quote-box">
+                    <p>"No heredamos la tierra de nuestros ancestros, la tomamos prestada de nuestros hijos."</p>
+                    <span>- Proverbio Nativo Americano</span>
+                </div>
+            </div>
+            <div class="content-image">
+                <img src="https://images.pexels.com/photos/1648377/pexels-photo-1648377.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Niños y naturaleza">
+                <img src="https://images.pexels.com/photos/2990644/pexels-photo-2990644.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Futuro verde">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

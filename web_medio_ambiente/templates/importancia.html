@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block title %}Importancia del Cuidado del Medio Ambiente{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <div class="container">
+        <a href="{{ url_for('index') }}" class="breadcrumb-item">Inicio</a>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-item active">Importancia</span>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="content-layout">
+            <div class="content-text">
+                <h1 class="page-title">Importancia del Cuidado del Medio Ambiente</h1>
+                <p class="lead">El medio ambiente es nuestro hogar, y su cuidado es responsabilidad de todos. La preservación de los recursos naturales no solo garantiza nuestra supervivencia, sino también la de las generaciones futuras.</p>
+                
+                <h2>¿Por qué es importante?</h2>
+                <p>El cuidado del medio ambiente es fundamental porque:</p>
+                <ul class="feature-list">
+                    <li><strong>Preserva la biodiversidad:</strong> Millones de especies dependen de ecosistemas saludables para sobrevivir.</li>
+                    <li><strong>Garantiza recursos naturales:</strong> El agua limpia, el aire puro y los suelos fértiles son esenciales para la vida.</li>
+                    <li><strong>Regula el clima:</strong> Los ecosistemas saludables ayudan a mantener el equilibrio climático del planeta.</li>
+                    <li><strong>Mejora la salud humana:</strong> Un ambiente limpio reduce enfermedades y mejora la calidad de vida.</li>
+                    <li><strong>Sostiene la economía:</strong> Muchos sectores dependen directamente de recursos naturales.</li>
+                </ul>
+
+                <h2>Consecuencias de no actuar</h2>
+                <p>Ignorar el cuidado ambiental conlleva consecuencias graves como el cambio climático, la extinción de especies, la escasez de recursos y desastres naturales más frecuentes e intensos.</p>
+            </div>
+            <div class="content-image">
+                <img src="https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Naturaleza verde">
+                <img src="https://images.pexels.com/photos/414102/pexels-photo-414102.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Planeta Tierra">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

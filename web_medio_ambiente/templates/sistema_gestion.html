@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %}Sistema de Gestión Ambiental{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <div class="container">
+        <a href="{{ url_for('index') }}" class="breadcrumb-item">Inicio</a>
+        <span class="breadcrumb-separator">/</span>
+        <span class="breadcrumb-item active">Sistema de Gestión</span>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<section class="section">
+    <div class="container">
+        <div class="content-layout">
+            <div class="content-text">
+                <h1 class="page-title">¿Qué es un Sistema de Gestión Ambiental?</h1>
+                <p class="lead">Un Sistema de Gestión Ambiental (SGA) es un conjunto de procesos y prácticas que permiten a una organización reducir sus impactos ambientales y aumentar su eficiencia operativa.</p>
+                
+                <h2>Componentes principales</h2>
+                <p>Un SGA efectivo incluye:</p>
+                <ul class="feature-list">
+                    <li><strong>Política ambiental:</strong> Compromiso documentado de la organización con el medio ambiente.</li>
+                    <li><strong>Planificación:</strong> Identificación de aspectos ambientales e impactos significativos.</li>
+                    <li><strong>Implementación:</strong> Asignación de recursos, capacitación y procedimientos operativos.</li>
+                    <li><strong>Verificación:</strong> Monitoreo, medición y auditorías internas.</li>
+                    <li><strong>Revisión:</strong> Evaluación continua para la mejora del sistema.</li>
+                </ul>
+
+                <h2>Beneficios</h2>
+                <p>Implementar un SGA ofrece ventajas como reducción de costos operativos, cumplimiento legal, mejora de la imagen corporativa, acceso a nuevos mercados y contribución activa a la sostenibilidad.</p>
+
+                <h2>Normas internacionales</h2>
+                <p>La norma ISO 14001 es el estándar internacional más reconocido para los Sistemas de Gestión Ambiental, proporcionando un marco para que las organizaciones gestionen sus responsabilidades ambientales de manera sistemática.</p>
+            </div>
+            <div class="content-image">
+                <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Gestión ambiental">
+                <img src="https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Sostenibilidad empresarial">
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

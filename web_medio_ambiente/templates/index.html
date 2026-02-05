@@ -1,0 +1,189 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio - Cuidado del Medio Ambiente{% endblock %}
+
+{% block breadcrumbs %}
+<div class="breadcrumbs">
+    <div class="container">
+        <span class="breadcrumb-item active">Inicio</span>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <div class="hero-carousel">
+        <div class="carousel-slide active" style="background-image: url('https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg?auto=compress&cs=tinysrgb&w=1600')"></div>
+        <div class="carousel-slide" style="background-image: url('https://images.pexels.com/photos/3935702/pexels-photo-3935702.jpeg?auto=compress&cs=tinysrgb&w=1600')"></div>
+        <div class="carousel-slide" style="background-image: url('https://images.pexels.com/photos/2398220/pexels-photo-2398220.jpeg?auto=compress&cs=tinysrgb&w=1600')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1 class="hero-title">Cuidando Nuestro Planeta</h1>
+        <p class="hero-subtitle">Juntos podemos hacer la diferencia para preservar el medio ambiente</p>
+        <a href="{{ url_for('importancia') }}" class="btn-primary">Descubre Más</a>
+    </div>
+    <div class="scroll-indicator">
+        <div class="mouse">
+            <div class="wheel"></div>
+        </div>
+        <span class="scroll-text">Desplázate</span>
+    </div>
+</section>
+
+ <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const slides = document.querySelectorAll('.carousel-slide');
+    let currentSlide = 0;
+
+    function showSlide(index) {
+        slides.forEach(slide => slide.classList.remove('active'));
+        slides[index].classList.add('active');
+    }
+
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        showSlide(currentSlide);
+    }
+
+    setInterval(nextSlide, 10000);
+});
+
+
+ </script>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Temas Ambientales</h2>
+        <div class="ag-courses_box">
+            <div class="ag-courses_item">
+                <a href="{{ url_for('importancia') }}" class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+                    <div class="card-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="ag-courses-item_title">
+                        Importancia del Cuidado Ambiental
+                    </div>
+                    <div class="card-content">
+                        <p>Descubre por qué es crucial proteger nuestro entorno natural.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="ag-courses_item">
+                <a href="{{ url_for('sistema_gestion') }}" class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+                    <div class="card-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="ag-courses-item_title">
+                        Sistema de Gestión Ambiental
+                    </div>
+                    <div class="card-content">
+                        <p>Conoce cómo implementar prácticas sostenibles en organizaciones.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="ag-courses_item">
+                <a href="{{ url_for('futuras_generaciones') }}" class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+                    <div class="card-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <div class="ag-courses-item_title">
+                        Preservar para el Futuro
+                    </div>
+                    <div class="card-content">
+                        <p>La importancia de cuidar el planeta para nuestros hijos.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="ag-courses_item center-card">
+                <a href="{{ url_for('tres_r') }}" class="ag-courses-item_link">
+                    <div class="ag-courses-item_bg"></div>
+                    <div class="card-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <div class="ag-courses-item_title">
+                        Las 3 R
+                    </div>
+                    <div class="card-content">
+                        <p>Reducir, Reutilizar y Reciclar: prácticas esenciales.</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="creator-section">
+    <div class="creator-background"></div>
+    <div class="creator-container">
+        <div class="creator-content">
+            <h2 class="creator-title">Diseñado y desarrollado por <span class="creator-name">César Fernando González Avalos</span></h2>
+            <p class="creator-subtitle">Una página dedicada a la conciencia ambiental y la sostenibilidad del planeta.</p>
+            <a href="#contact" class="creator-btn">
+                <span>CONTACTAR AL CREADOR</span>
+                <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="section statistics-section">
+    <div class="container">
+        <h2 class="section-title2">Razones de Pérdidas Ambientales en los Últimos Años</h2>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-tree"></i>
+                </div>
+                <h3>Deforestación</h3>
+                <p>Desde el año 2000 hasta 2020 se perdió casi 100 millones de hectáreas de bosques netos en todo el mundo. La deforestación representa alrededor del 10–15 % de todas las emisiones globales de gases de efecto invernadero.</p>   
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-paw"></i>
+                </div>
+                <h3>Biodiversidad en Riesgo</h3>
+                <p>Se estima que hasta 1 millón de especies están en peligro de extinción. Entre 1970 y la actualidad, se ha observado una reducción promedio del 60 % al 70 % en poblaciones de peces, insectos y otros animales.</p>
+
+              
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-water"></i>
+                </div>
+                <h3>Océanos, Agua y Contaminación</h3>
+                <p>Cada año alrededor de 8 millones de toneladas de plástico entran a los océanos. Los océanos están absorbiendo más dióxido de carbono, lo que ha aumentado su acidez en un 26 % desde la era preindustrial.</p>
+
+             
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-thermometer-half"></i>
+                </div>
+                <h3>Cambio Climático y Naturaleza</h3>
+                <p>La concentración de CO₂ en la atmósfera ha superado las 420 partes por millón. La temperatura media de la Tierra ha aumentado aproximadamente 1.2 °C desde tiempos preindustriales.</p>
+
+            </div>
+
+            <div class="stat-item">
+                <div class="stat-icon">
+                    <i class="fas fa-seedling"></i>
+                </div>
+                <h3>Degradación de Tierras y Suelos</h3>
+                <p>Cerca del 33 % de las tierras terrestres están degradadas por la erosión, la agricultura intensiva, el pastoreo y la urbanización.</p>
+
+             
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
