@@ -21,7 +21,7 @@ Un sitio web educativo sobre el cuidado del medio ambiente, desarrollado con Fla
 
 ## 📋 Descripción
 
-CuidadoAmbiente es una aplicación web que informa y educa sobre temas ambientales importantes, incluyendo la importancia del medio ambiente, sistemas de gestión ambiental, el impacto en las futuras generaciones y las "3 R" (Reducir, Reutilizar, Reciclar).
+EcoVida es una aplicación web que informa y educa sobre temas ambientales importantes, incluyendo la importancia del medio ambiente, sistemas de gestión ambiental, el impacto en las futuras generaciones y las "3 R" (Reducir, Reutilizar, Reciclar).
 
 ## ✨ Características
 
