@@ -19,11 +19,11 @@
 
 Un sitio web educativo sobre el cuidado del medio ambiente, desarrollado con Flask y diseñado para promover la conciencia ambiental y las prácticas sostenibles.
 
-## 📋 Descripción
+##  Descripción
 
 EcoVida es una aplicación web que informa y educa sobre temas ambientales importantes, incluyendo la importancia del medio ambiente, sistemas de gestión ambiental, el impacto en las futuras generaciones y las "3 R" (Reducir, Reutilizar, Reciclar).
 
-## ✨ Características
+##  Características
 
 - **Interfaz Moderna**: Diseño responsivo con tema oscuro y elementos visuales atractivos
 - **Contenido Educativo**: Información detallada sobre temas ambientales
@@ -67,7 +67,7 @@ EcoVida es una aplicación web que informa y educa sobre temas ambientales impor
    http://localhost:5000
    ```
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 cuidadoambiente/
@@ -85,7 +85,7 @@ cuidadoambiente/
 │       └── tres_r.html          # Las 3 R (Reducir, Reutilizar, Reciclar)
 ```
 
-## 🛠️ Tecnologías Utilizadas
+##  Tecnologías Utilizadas
 
 - **Backend:**
   - Flask 2.x - Framework web de Python
@@ -102,7 +102,7 @@ cuidadoambiente/
   - Animaciones CSS
   - Arquitectura modular con plantillas base
 
-## 📖 Uso
+##  Uso
 
 ### Navegación del Sitio
 
@@ -116,7 +116,7 @@ cuidadoambiente/
 
 Para modificar el contenido, edita los archivos HTML en la carpeta `templates/` y los estilos en `static/style.css`.
 
-## 🎨 Características de Diseño
+##  Características de Diseño
 
 - **Tema Oscuro**: Interfaz moderna con colores oscuros y acentos verdes
 - **Tipografía**: Inter font para una lectura cómoda
@@ -124,7 +124,7 @@ Para modificar el contenido, edita los archivos HTML en la carpeta `templates/` 
 - **Animaciones**: Efectos de hover y transiciones suaves
 - **Layout**: Diseño de cuadrícula responsiva
 
-## 🤝 Contribuir
+## Contribuir
 
 ¡Las contribuciones son bienvenidas! Para contribuir:
 
@@ -136,9 +136,9 @@ Para modificar el contenido, edita los archivos HTML en la carpeta `templates/` 
 
 
 
-## 👨‍💻 Autor
+## Autor
 
-**Desarrollado por:** [César Fernando González Avalos]
+**Desarrollado por:** [ César Fernando González Avalos ]
 - **GitHub:** [https://github.com/Ces4rGlez](https://github.com/Ces4rGlez)
 
 
