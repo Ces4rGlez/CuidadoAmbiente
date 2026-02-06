@@ -31,7 +31,7 @@ EcoVida es una aplicación web que informa y educa sobre temas ambientales impor
 - **Animaciones Suaves**: Transiciones y efectos visuales para mejorar la experiencia del usuario
 - **Completamente Responsivo**: Funciona perfectamente en dispositivos móviles, tablets y desktop
 
-## 🚀 Instalación
+##  Instalación
 
 ### Prerrequisitos
 
